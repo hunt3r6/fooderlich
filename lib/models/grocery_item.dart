@@ -10,7 +10,7 @@ class GroceryItem {
   final Color color;
   final int quantity;
   final DateTime date;
-  final bool isCompate;
+  final bool isComplete;
 
   GroceryItem({
     required this.id,
@@ -19,7 +19,7 @@ class GroceryItem {
     required this.color,
     required this.quantity,
     required this.date,
-    required this.isCompate,
+    this.isComplete = false,
   });
 
   GroceryItem copyWith({
@@ -29,16 +29,15 @@ class GroceryItem {
     Color? color,
     int? quantity,
     DateTime? date,
-    bool? isCompate,
+    bool? isComplete,
   }) {
     return GroceryItem(
-      id: id ?? this.id,
-      name: name ?? this.name,
-      importance: importance ?? this.importance,
-      color: color ?? this.color,
-      quantity: quantity ?? this.quantity,
-      date: date ?? this.date,
-      isCompate: isCompate ?? this.isCompate,
-    );
+        id: id ?? this.id,
+        name: name ?? this.name,
+        importance: importance ?? this.importance,
+        color: color ?? this.color,
+        quantity: quantity ?? this.quantity,
+        date: date ?? this.date,
+        isComplete: isComplete ?? this.isComplete);
   }
 }

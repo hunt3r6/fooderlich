@@ -24,20 +24,21 @@ class FriendPostTile extends StatelessWidget {
           width: 16,
         ),
         Expanded(
-            child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              post.comment,
-            ),
-            Text(
-              '${post.timestamp} mins ago',
-              style: const TextStyle(
-                fontWeight: FontWeight.w700,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                post.comment,
               ),
-            ),
-          ],
-        ))
+              Text(
+                '${post.timestamp} mins ago',
+                style: const TextStyle(
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+            ],
+          ),
+        ),
       ],
     );
   }

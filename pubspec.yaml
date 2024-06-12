@@ -1,7 +1,7 @@
 name: fooderlich
 description: "A new Flutter project."
 
-publish_to: 'none' 
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter  
+    sdk: flutter
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
   provider: ^6.1.2
@@ -31,31 +31,3 @@ flutter:
     - assets/magazine_pics/
     - assets/sample_data/
     - assets/profile_pics/
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
